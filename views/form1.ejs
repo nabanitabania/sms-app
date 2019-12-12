@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>SMS APPLICATION</title>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+	</head>
+	<body>
+		<style>
+			.form {
+				height: 400px;
+				width: 400px;
+				margin: 10% auto;
+				padding-bottom: 2px;
+			}
+		</style>
+
+	<div class="ui main text container segment hey" >
+		<div class="ui huge header">
+			SMS APP :<i class="phone icon"></i>
+		</div>
+		<form class="ui form" action="/go" method="POST">
+			<div class="field">
+				<label>Enter your message:</label>
+				<input type="text" name="text" placeholder="text">
+			</div>
+			
+			<input class="ui primary button big" type="submit">
+		</form>
+	</div>
+	</body>
+</html>
